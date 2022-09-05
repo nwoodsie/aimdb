@@ -1,0 +1,41 @@
+.ratingWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ratingText {
+    color: rgb(167, 166, 166);
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    font-family: Roboto, Helvetica, Arial, san-serif;
+}
+
+.starsMetric {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.starsRating {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.starsRatingNumber {
+    display: flex;
+    color: white;
+    letter-spacing: 0.1rem;
+    font-family: Roboto, Helvetica, Arial, san-serif;
+    font-size: 1.5rem;
+}
+
+.starsRatingVotes {
+    color: rgb(190, 190, 190);
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    font-family: Roboto, Helvetica, Arial, san-serif;
+}
