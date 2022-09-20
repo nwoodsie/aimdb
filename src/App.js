@@ -1,12 +1,22 @@
-import './App.css';
-import Header from './components/Header/Header.js'
-import MovieCard from './components/MovieCard/MovieCard';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Header from "./components/Header/Header.js";
+import HomePage from "./components/HomePage/Homepage";
+import MovieListView from "./components/MovieListView/MovieListView";
+import MovieCard from "./components/MovieCard/MovieCard";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <MovieCard />
+      <Router>
+        <Header />
+          <Routes>
+            <Route exact path='/MovieList' element={<MovieListView />}/>
+            <Route exact path='/MovieCard' element={<MovieCard />}/>
+            <Route exact path='/' element={<HomePage />}/>
+          </Routes>
+      </Router>
     </div>
   );
 }

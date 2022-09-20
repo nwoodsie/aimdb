@@ -5,6 +5,9 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
+  /* border-bottom: solid 3px #f3ce13ed; */
+  /* position: fixed;
+  margin-bottom: 3.5rem; */
 }
 
 .headerLogo {
@@ -49,3 +52,8 @@
   transition: background-color 0.2s;
 }
 
+.break {
+  width: 0px;
+  height: 1.7rem;
+  border-right: solid gray 0.15rem;
+}
