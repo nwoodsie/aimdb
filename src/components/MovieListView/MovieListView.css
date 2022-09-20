@@ -1,0 +1,43 @@
+.movieListViewWrapper {
+  height: 100%;
+}
+
+.movieListViewBlock {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  background-color: white;
+  width: 70rem;
+  height: 100%;
+}
+
+.title {
+  text-align: left;
+  color: #424242;
+  font: 24px Arial, sans-serif;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+}
+
+.MovieListHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+  margin: 5px;
+  border-bottom: solid 2px black;
+}
+
+.MovieListHeader > p {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: right;
+  padding: 1px;
+}
+
+.MovieListHeader > h3 {
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: left;
+}
