@@ -1,0 +1,29 @@
+.infoBlockWrapper {
+    width: 100%;
+    height: 12rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-radius: 8px;
+    background-image: linear-gradient(290deg, #7a2d0d, #f3ce13ed);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    height: 90%;
+    align-items: flex-start;
+    justify-content: flex-end;
+    color: white;
+}
+
+.textWrapper > b {
+    margin-bottom: 4px;
+}
+
+.infoBlockWrapper:hover {
+    cursor: pointer;
+    border: solid 2px white;
+} 
