@@ -19,7 +19,7 @@ function Header() {
           Home
         </div>
       </Link>
-      <SearchBar placeholder='Search all generated movies...' style={{ height: "2rem", width: "46rem", margin: "0.5rem" }} />
+      <SearchBar placeholder='Search all generated movies...' style={{ height: "2rem", width: "30rem", margin: "0.5rem" }} />
       <Link to="/MovieList" style={{ textDecoration: "none" }}>
         <div className="menuButton">
           <MenuIcon sx={{ mr: 1 }} />

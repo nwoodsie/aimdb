@@ -1,0 +1,29 @@
+.bottomInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+}
+
+.bottomInfoTitle {
+  font-weight: 500;
+  margin-top: 1rem;
+  font-size: 16px;
+}
+
+.bottomInfoText {
+  font-weight: 200;
+  margin-top: 0.6rem;
+  color: #dededf;
+  font-size: 14px;
+}
+
+.linkText {
+  margin-top: 0.6rem;
+}
+
+.linkText > a {
+  font-weight: 200;
+  color: white;
+  font-size: 14px;
+}
