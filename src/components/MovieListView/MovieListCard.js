@@ -2,15 +2,15 @@ import React from 'react'
 import './MovieListCard.css'
 import StarRoundedIcon from '@mui/icons-material/StarRounded';
 
-function MovieListCard() {
+function MovieListCard({ title, rating, img }) {
   return (
     <div className='movieListCardWrapper'>
         <div className='left'>
-            <img src='https://m.media-amazon.com/images/M/MV5BMDU2ZmM2OTYtNzIxYy00NjM5LTliNGQtN2JmOWQzYTBmZWUzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg' alt=''/>
-            <b>Bullet Train</b>
+            <img src={img} alt=''/>
+            <b>{title}</b>
         </div>
         <div className='right'>
-            <b>7.5/10</b>
+            <b>{rating}/10</b>
             <StarRoundedIcon sx={{ color: '#f3ce13ed', fontSize: '1rem' }}/>
         </div>
     </div>

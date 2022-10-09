@@ -5,7 +5,7 @@ const openInNewTab = url => {
     window.open(url, '_blank', 'noopener,noreferrer')
   }
 
-function InfoBlock(colour) {
+function InfoBlock() {
   return (
     <div className="infoBlockWrapper" onClick={() => openInNewTab('https://youtube.com')}>
       <div className="textWrapper">
