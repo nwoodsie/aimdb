@@ -26,7 +26,7 @@ function Homepage() {
             <b>Generate a Movie</b>
           </div>
           <div className="squaresWrapper">
-            <Square />
+            <Square text='Hello'/>
             <Square />
             <Square />
             <Square />

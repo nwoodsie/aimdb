@@ -11,7 +11,7 @@ function Square() {
           Top 100 
         </div>
         <div className="lowerText">
-          View top 100 movies
+          hello
         </div>
       </div>
     </div>
