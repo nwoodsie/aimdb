@@ -7,8 +7,8 @@ function InfoBlock(colour) {
     <div className="infoBlockWrapper2">
       <Link to="/MovieList" style={{ textDecoration: "none" }}>
       <div className="textWrapper2">
-        <b>Movie Generation</b>
-        select parameters, generate movies
+        <b>Generated Movies</b>
+        View list of all generated movies
       </div>
       </Link>
     </div>

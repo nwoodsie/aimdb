@@ -23,6 +23,12 @@
   margin-top: 3rem;
   margin-bottom: 1rem;
 }
+.wrapper > h6 {
+  font-size: 32px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  /*color: #f3ce13ed;*/
+}
 
 .wrapper > b {
   font-size: 24px;

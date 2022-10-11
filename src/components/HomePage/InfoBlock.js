@@ -10,7 +10,7 @@ function InfoBlock() {
     <div className="infoBlockWrapper" onClick={() => openInNewTab('https://youtube.com')}>
       <div className="textWrapper">
         <b>Video Tutorial</b>
-        view a quick tutorial
+        View a tutorial
       </div>
     </div>
   );

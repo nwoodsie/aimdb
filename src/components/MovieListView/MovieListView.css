@@ -7,25 +7,26 @@
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	border-radius: 10px;
-	background-color: white;
+	/*background-color: black;*/
 }
 
 ::-webkit-scrollbar
 {
 	width: 12px;
-	background-color: white;
+	background-color: grey;
+
 }
 
 ::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
 	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
+	background-color: #f3ce13ed;
 }
+
 .movieListViewBlock {
   display: flex;
   flex-direction: column;
-  background-color: white;
   padding: 3rem;
   width: 70rem;
   height: 100%;
@@ -33,7 +34,7 @@
 
 .title {
   text-align: left;
-  color: #424242;
+  color: lightgrey;
   font: 24px Arial, sans-serif;
   font-weight: normal;
   margin-bottom: 1.5rem;
@@ -45,7 +46,7 @@
   justify-content: space-between;
   height: 35px;
   margin: 5px;
-  border-bottom: solid 2px black;
+  border-bottom: solid 2px ;
 }
 
 .MovieListHeader > p {
@@ -56,7 +57,7 @@
 }
 
 .MovieListHeader > h3 {
-  color: black;
+  color: darkgrey;
   margin-left: 5px;
   margin-right: 5px;
   text-align: left;

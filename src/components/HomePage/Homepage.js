@@ -13,7 +13,7 @@ function Homepage() {
       <div className="homeWrapper">
         <div className="homeBlock">
           <div className="wrapper">
-            <h5>Welcome to AIMDb</h5>
+            <h6>Welcome to AIMDb! </h6>
           </div>
           <div className="wrapper">
             <b>{plot}</b>

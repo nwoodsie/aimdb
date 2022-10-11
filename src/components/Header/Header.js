@@ -26,10 +26,12 @@ function Header() {
           All Movies
         </div>
       </Link>
+        <Link to="/MovieGen" style={{ textDecoration: "none" }}>
       <div className="menuButton">
         <ComputerTwoToneIcon sx={{ mr: 1 }} />
         Movie Gen
       </div>
+        </Link>
       <div className="break"></div>
       <div className="menuButton">
         <PersonIcon sx={{ mr: 1 }} />
