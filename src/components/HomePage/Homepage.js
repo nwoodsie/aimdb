@@ -26,10 +26,10 @@ function Homepage() {
             <b>Generate a Movie</b>
           </div>
           <div className="squaresWrapper">
-            <Square text='Hello'/>
-            <Square />
-            <Square />
-            <Square />
+            <Square upper='Movie Randomiser' lower='view a random movie' icon='CasinoIcon'/>
+            <Square upper='Top 100 Movies' lower='browse the top 100' icon='EmojiEventsIcon'/>
+            <Square upper='Git Hub' lower='visit our github repository' icon='GitHubIcon'/>
+            <Square upper='Movie Randomiser' lower='view a random movie'/>
           </div>
         </div>
       </div>

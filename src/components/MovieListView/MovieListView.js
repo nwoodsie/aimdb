@@ -4,6 +4,7 @@ import "./MovieListView.css";
 import { Link } from "react-router-dom";
 
 function MovieListView() {
+  // eslint-disable-next-line
   const [apiData, setApiData] = useState();
 
   async function getMoviesFromApi() {
@@ -55,7 +56,6 @@ function MovieListView() {
           <h3>Title</h3>
           <p>AIMDb Rating</p>
         </div>
-
         {movieData?.map((movie) => (
           <Link to="/MovieCard" style={{ textDecoration: "none" }}>
             <MovieListCard

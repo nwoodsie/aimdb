@@ -1,21 +1,48 @@
 import React from "react";
 import "./Square.css";
-import CreateIcon from "@mui/icons-material/Create";
+import CasinoIcon from "@mui/icons-material/Casino";
+import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
 
-function Square() {
+function Square({ upper, lower, icon }) {
+  function deriveIcon(icon) {
+    if (icon === "CasinoIcon") {
+      return (
+        <div className="casinoIconBlock">
+          <CasinoIcon className="icon" />
+        </div>
+      );
+    } else if (icon === "EmojiEventsIcon") {
+      return (
+        <div className="emojiEventsIconBlock">
+          <EmojiEventsIcon className="icon" />
+        </div>
+      )
+    } else if (icon === "GitHubIcon") {
+      return (
+        <div className="gitHubIconBlock">
+          <GitHubIcon className="icon" />
+        </div>
+      )
+    } else {
+      return (
+        <div className="emailIconBlock">
+          <EmailIcon className="icon" />
+        </div>
+      )
+    }
+  }
+
   return (
     <div className="squareWrapper">
-      <CreateIcon sx={{ margin: "1rem", color: 'white' }} />
+      {deriveIcon(icon)}
       <div className="squareTextWrapper">
-        <div className="upperText">
-          Top 100 
-        </div>
-        <div className="lowerText">
-          hello
-        </div>
+        <div className="upperText">{upper}</div>
+        <div className="lowerText">{lower}</div>
       </div>
     </div>
-  );
+  )
 }
 
 export default Square;
