@@ -23,16 +23,16 @@
 }
 
 .right {
-    display: flex;
-    justify-content: right;
-    align-items: left;
-    height: 100%;
-    width: 100%;
-    color: black;
-    align-items: center;
-    margin-right: 2rem;
-  }
+  display: flex;
+  justify-content: right;
+  align-items: left;
+  height: 100%;
+  width: 100%;
+  color: black;
+  align-items: center;
+  margin-right: 2rem;
+}
 /*this is for imdb ratings*/
 .right > b {
-    color: #2b2e2c;
+  color: #cce7d5;
 }

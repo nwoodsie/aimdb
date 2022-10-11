@@ -4,6 +4,7 @@ import "./MovieListView.css";
 import { Link } from "react-router-dom";
 
 function MovieListView() {
+  // eslint-disable-next-line
   const [apiData, setApiData] = useState();
 
   async function getMoviesFromApi() {
@@ -12,15 +13,14 @@ function MovieListView() {
     );
     const responseJson = await response.json();
     console.log({ jsonResponse: responseJson });
-    setApiData(responseJson)
+    setApiData(responseJson);
   }
 
   useEffect(() => {
     getMoviesFromApi();
   }, []);
 
-
-const movieData = [
+  const movieData = [
     {
       title: "Bullet Train",
       rating: 7.5,
@@ -51,13 +51,11 @@ const movieData = [
   return (
     <div className="movieListViewWrapper">
       <div className="movieListViewBlock">
-        <div className="title"> AIMDb Top Generated Movies</div>
+        <div className="title">AIMDb Top Generated Movies</div>
         <div className="MovieListHeader">
           <h3>Title</h3>
-          <h3>AIMDb Rating</h3>
-          {/*<p>AIMDb Rating</p>*/}
+          <p>AIMDb Rating</p>
         </div>
-
         {movieData?.map((movie) => (
           <Link to="/MovieCard" style={{ textDecoration: "none" }}>
             <MovieListCard

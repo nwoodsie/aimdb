@@ -1,0 +1,13 @@
+[1mdiff --git a/src/components/HomePage/Square.css b/src/components/HomePage/Square.css[m
+[1mindex 2fe8173..104b052 100644[m
+[1m--- a/src/components/HomePage/Square.css[m
+[1m+++ b/src/components/HomePage/Square.css[m
+[36m@@ -22,7 +22,7 @@[m
+     margin-right: 1rem;[m
+     border-radius: 8px;[m
+     /*background-image: linear-gradient(290deg,grey,lightgrey);*/[m
+[31m-    /*border: solid 2px dimgrey;*/[m
+[32m+[m[32m    border: solid 2px dimgrey;[m
+     /*background-clip: padding-box;*/[m
+ }[m
+ [m
