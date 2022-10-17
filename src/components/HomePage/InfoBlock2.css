@@ -3,10 +3,12 @@
     height: 12rem;
     margin-top: 1rem;
     border-radius: 8px;
-    background-image: linear-gradient(to right, #5E5C5C, #9DC5C3); 
+    background-image: linear-gradient(to right, #f3ce13ed, #f3ce13ed);
     border: solid 2px transparent;
     background-clip: padding-box;
 }
+
+/* #ee4758, #9DC5C*/
 
 .textWrapper2 {
     display: flex;
@@ -15,7 +17,7 @@
     height: 90%;
     align-items: flex-start;
     justify-content: flex-end;
-    color: white;
+    color: black;
 }
 
 .infoBlockWrapper2:hover {
