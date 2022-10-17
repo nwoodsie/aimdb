@@ -5,6 +5,11 @@
   height: 6rem;
   max-height: 6rem;
   border-bottom: 4px solid dimgrey;
+  transition: 1s;
+}
+
+.movieListCardWrapper:hover {
+  background-color: #444444;
 }
 /*this is for the text in the list e.g bullet train title-2b2e2c*/
 .left {
