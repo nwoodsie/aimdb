@@ -27,7 +27,7 @@ const promptEndPoint =
 
 const MovieGen = () => {
   const defaultValues = {
-    title: "",
+    prompt: "",
     characters: "",
     genre: "",
     tone: "",
@@ -52,10 +52,10 @@ const MovieGen = () => {
         <ThemeProvider theme={theme}>
           <TextField
             fullWidth
-            id="title"
-            name="title"
-            label="Title"
-            value={formValues.title}
+            id="prompt"
+            name="prompt"
+            label="Prompt"
+            value={formValues.prompt}
             margin="normal"
             variant="filled"
             onChange={handleInputChange}
@@ -96,7 +96,7 @@ const MovieGen = () => {
             fullWidth
             type="submit"
             style={{ marginTop: "1.2rem" }}
-            onHover={onSubmitFunc(
+            onClick={onSubmitFunc(
               formValues.title,
               formValues.characters,
               formValues.genre,

@@ -12,7 +12,7 @@ function Rating() {
             <StarRoundedIcon sx={{ color: '#f3ce13ed', fontSize: '2rem' }}/>
             <div className="starsRating">
                 <div className="starsRatingNumber">
-                    7.5/10
+                    7/10
                 </div>
                 <div className="starsRatingVotes">
                     70K    
