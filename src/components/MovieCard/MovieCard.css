@@ -22,13 +22,21 @@
   color: white;
   font-family: Roboto, Helvetica, Arial, san-serif;
   font-size: 48px;
+  text-align: left;
+}
+
+.titleBlock > p {
+  font-size: 48px;
+  color: white;
+  width: 70%;
 }
 
 .imageContainer {
   display: flex;
   width: 77rem;
   height: 30rem;
-  margin: 1rem;
+  margin: 1rem;      
+  justify-content: flex-end;
 }
 
 .plotContainer {
