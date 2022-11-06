@@ -20,7 +20,6 @@ function Rating() {
             </div>  
         </div>
     </div>
-
   )
 }
 

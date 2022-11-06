@@ -11,7 +11,7 @@
 }
 
 .squareWrapper:hover > .squareTextWrapper > .upperText {
-    color: #f3ce13ed;
+    color: #8ddad4;
     transition: 0.2s;
   }
 
@@ -39,9 +39,9 @@
   width: 3.4rem;
   height: 3.4rem;
   border-radius: 4px;
-  background-image: linear-gradient(to right,grey, darkgrey );
+  background-image: linear-gradient(to right, #5E5C5C, #9DC5C3); 
 }
-/*#00b4db, #0083b0*/
+
 .emojiEventsIconBlock {
   display: flex;
   justify-content: center;
@@ -52,10 +52,8 @@
   width: 3.4rem;
   height: 3.4rem;
   border-radius: 4px;
-  background-image: linear-gradient(-20deg, grey, darkgrey);
+  background-image: linear-gradient(to right, #5E5C5C, #9DC5C3); 
 }
-
-/*#00cdac 0%, #8ddad5 100%*/
 .gitHubIconBlock {
   display: flex;
   justify-content: center;
@@ -66,10 +64,8 @@
   width: 3.4rem;
   height: 3.4rem;
   border-radius: 4px;
-  background-image: linear-gradient(to right, grey, darkgrey );
+  background-image: linear-gradient(to right, #5E5C5C, #9DC5C3); 
 }
-
-/*#4078c0, #6e5494*/
 .emailIconBlock {
   display: flex;
   justify-content: center;
@@ -80,10 +76,9 @@
   width: 3.4rem;
   height: 3.4rem;
   border-radius: 4px;
-  background-image: linear-gradient(25deg,darkgrey,grey );
+  background-image: linear-gradient(to right, #5E5C5C, #9DC5C3); 
 }
 
-/*#d64c7f, #ee4758 50%*/
 .icon {
   color: white;
   font-size: 24px;

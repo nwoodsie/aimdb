@@ -15,7 +15,7 @@ function App() {
           <Routes>
             <Route exact path='/MovieList' element={<MovieListView />}/>
             <Route exact path='/MovieCard' element={<MovieCard />}/>
-            <Route exact path='/MovieGen' element={<MovieGen />}/>
+            <Route exact path='/MovieGenerator' element={<MovieGen />}/>
             <Route exact path='/' element={<HomePage />}/>
           </Routes>
       </Router>
