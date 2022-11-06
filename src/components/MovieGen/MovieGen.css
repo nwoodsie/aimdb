@@ -1,0 +1,12 @@
+.title1 {
+  /*text-align: left;*/
+  color: white;
+  font: 24px Arial, sans-serif;
+  font-weight: normal;
+  /*margin-bottom: 1.5rem;*/
+
+}
+
+.left > a {
+  color: white;
+}
