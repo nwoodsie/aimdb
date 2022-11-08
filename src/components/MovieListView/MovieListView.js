@@ -13,7 +13,7 @@ function MovieListView() {
 
   async function getMoviesFromApi() {
     const response = await fetch(
-      "http://ec2-54-183-191-117.us-west-1.compute.amazonaws.com:5000/movie_directory/get_processed_movies"
+      "http://ec2-54-183-241-226.us-west-1.compute.amazonaws.com:5000/movie_directory/get_processed_movies"
     );
     const responseJson = await response.json();
     console.log({ jsonResponse: responseJson });

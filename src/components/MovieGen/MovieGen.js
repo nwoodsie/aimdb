@@ -18,20 +18,13 @@ const theme = createTheme({
   },
 });
 
-function onSubmitFunc(title, characters, genre, tone) {
-    console.log(title, characters, genre, tone);
-  }
-
-const promptEndPoint =
-  "http://ec2-54-183-191-117.us-west-1.compute.amazonaws.com:5000/movie_directory/build_movie";
-
 const MovieGen = () => {
   const defaultValues = {
-    prompt: "",
+    plot: "",
     characters: "",
     genre: "",
     tone: "",
-  };
+  }
 
   const [formValues, setFormValues] = useState(defaultValues);
 
@@ -43,7 +36,13 @@ const MovieGen = () => {
     });
   };
 
-  
+  const putData = async () => {
+    console.log(formValues)
+    await fetch("http://ec2-54-183-241-226.us-west-1.compute.amazonaws.com:5000/movie_directory/build_movie", {
+      method: "PUT",
+      body: JSON.stringify(formValues)
+    })
+  }
 
   return (
     <div className="movieGenWrapper">
@@ -52,10 +51,10 @@ const MovieGen = () => {
         <ThemeProvider theme={theme}>
           <TextField
             fullWidth
-            id="prompt"
-            name="prompt"
-            label="Prompt"
-            value={formValues.prompt}
+            id="plot"
+            name="plot"
+            label="Plot Prompt"
+            value={formValues.plot}
             margin="normal"
             variant="filled"
             onChange={handleInputChange}
@@ -94,14 +93,9 @@ const MovieGen = () => {
             sx={{ mt: 10 }}
             variant="contained"
             fullWidth
-            type="submit"
+            type="button"
             style={{ marginTop: "1.2rem" }}
-            onClick={onSubmitFunc(
-              formValues.title,
-              formValues.characters,
-              formValues.genre,
-              formValues.tone
-            )}
+            onClick={putData}
           >
             Submit
           </Button>
